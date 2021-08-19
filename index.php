@@ -52,12 +52,12 @@
   <div class="cover-bg p-3 p-lg-4 text-white">
     <div class="row">
       <div class="col-lg-4 col-md-5">
-        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/avatar.jpg" width="200" height="200"/></div>
+        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/hng.png" width="200" height="200"/></div>
       </div>
       <div class="col-lg-8 col-md-7 text-center text-md-start">
         <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Joseph Bassey</h2>
         <p data-aos="fade-left" data-aos-delay="100">Backend Developer</p>
-        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
+        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="internship.zuri.team" target="_blank">Visit HNG</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
       </div>
     </div>
   </div>
@@ -134,7 +134,7 @@
         <div class="card-body">
           <div class="h5 mb-1">HNGi8 Backend Developer <span class="text-muted h6">at Hotels.ng</span></div>
           <div class="text-muted text-small mb-2">August, 2021 - Present</div>
-          <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
+          <div>I am responsible for writinng server-side web application logic and integrate the front-end and backend together.</div>
         </div>
       </div>
     </div>
@@ -148,7 +148,7 @@
         <div class="card-body">
           <div class="h5 mb-1">PHP Backend Development<span class="text-muted h6"> from ZURI TRAINING</span></div>
           <div class="text-muted text-small mb-2">Febuary 2021 - August 2021</div>
-          <div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
+          <div>Responsible for managing backend services and the interchange of data between the server and the users</div>
         </div>
       </div>
       
@@ -160,19 +160,19 @@
     <div class="row">
       <div class="col-md-7 d-print-none">
         <div class="my-2">
-    <form action="https://formspree.io/your@email.com" method="POST">
+    <form action="contact.php" method="POST">
       <div class="row">
         <div class="col-6">
           <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
         </div>
         <div class="col-6">
-          <input class="form-control" type="email" id="email" name="_replyto" placeholder="Your E-mail" required>
+          <input class="form-control" type="email" id="email" name="email" placeholder="Your E-mail" required>
         </div>
       </div>
       <div class="form-group my-2">
         <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
       </div>
-      <button class="btn btn-primary mt-2" type="submit">Send</button>
+      <button class="btn btn-primary mt-2" type="submit" name="submit">Send</button>
    </form>
         </div>
       </div>
